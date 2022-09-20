@@ -6,6 +6,7 @@ public class Assignment1 {
     public static void main(String[] args) {
         // Add your code here
         Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("AAAAAAAAA   JJJJJJJJJ");
         System.out.print("AAA   AAA   JJJJJJJJJ");
@@ -25,5 +26,12 @@ public class Assignment1 {
 
         //prints out the Character
         System.out.println(+ch);
+
+        //Input
+        System.out.print("Please enter a number in Fahrenheit:");
+        int number = input.nextInt();
+        //Output
+        System.out.println(number + "Fahrenheit");
+
     }
 }
