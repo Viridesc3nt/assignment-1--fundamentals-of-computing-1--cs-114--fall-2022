@@ -3,6 +3,9 @@ import java.util.Scanner;
 // Import libraries here
 
 public class Assignment1 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // Add your code here
         Scanner sc = new Scanner(System.in);
@@ -33,5 +36,8 @@ public class Assignment1 {
         //Output
         System.out.println(number + "Fahrenheit");
 
+        //Generating Random Numbers
+        System.out.println("Random number generated. Continuing..."
+        + "Your new string is" + Math.random());
     }
 }
